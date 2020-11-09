@@ -134,25 +134,6 @@ class Index extends Component{
     }
 
 
-  UNSAFE_componentWillMount () {
-
-    // console.log('Component Will Mount Called!');
-    // console.log(this.state.items);
-
-    // this.setState({items: this.state.items});
-    // console.log('THis is after setstate');
-    // console.log(this.state)
-    // = x;
-    // console.log('This is Map');
-    // this.state.items.map((item, key) => {
-    //
-    //   console.log('This is One item: ');
-    //   console.log(item.item);
-    //
-    // })
-
-  }
-
 render(){
 
   //First Column of Data
@@ -168,30 +149,12 @@ render(){
   this.state.items.push(x);
   this.state.items2.push(y);
 
-  console.log('This is Our state!: ');
-  console.log(this.state);
-
   const {items} = this.state;
-  console.log('This is 1st items');
-  console.log(items);
-  console.log('This is 2nd items');
-  console.log(this.state['items2']);
+  
 
   const our_item = items[0];
 
   const our_item2 = this.state['items2'][0];
-
-  console.log('This is 1st item Again:');
-  console.log(our_item);
-  console.log('This is 2nd item Again');
-  console.log(our_item2);
-
-  // our_item2.map((item, key) => {
-  //
-  //   console.log('This is One item: ');
-  //   console.log(item.item);
-  //
-  // })
 
   let optionsTemplate = our_item.map((v, key) => (
       <option key={v.item} value={v.item}>{v.item}</option>
