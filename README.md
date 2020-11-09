@@ -21,6 +21,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## About ReactJS
+A JavaScript library for building user interfaces.
+React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+
 ## Demo Setup Instructions
 
 1.	Get started by making changes into the .env file, by making changes to the database details
